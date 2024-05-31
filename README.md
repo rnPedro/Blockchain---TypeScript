@@ -22,7 +22,7 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
    ```sh
    npm install typescript @types/node --save-dev
    ```
-6. **Agora crie um arquivo 'tsconfig.json' com a seguinte config**
+6. **Agora crie um arquivo 'tsconfig.json' com a seguinte config**:
    
   ~~~
 {
@@ -49,7 +49,7 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
    * Comando: npx tsc
    * Execute o arquico compilado:
    * Comando: node dist/index.js
-9. **Scripts NPM**
+9. **Scripts NPM**:
    * Adicione os seguintes scripts no seu 'package.json':
   ~~~
     {
@@ -70,7 +70,7 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
 }
 ~~~
 
-10. **Compile e Execute**
+10. **Compile e Execute**:
     ```sh
     npm run build
     npm start
