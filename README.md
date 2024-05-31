@@ -7,10 +7,10 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
 ### Inicializar o Projeto
 
 1. **Crie um diretório para o projeto e navegue até ele**:
-   ´´´sh
+   ```sh
    mkdir "Nome do seu Projeto"
-   ´´´
-   * cd "Nome do seu Projeto"
+   cd "Nome do seu Projeto"
+   ```
 3. **Inicialize um novo projeto NPM**:
    * Comando: npm init -y
 4. **Configure o TypeScript**:
