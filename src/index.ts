@@ -1,3 +1,4 @@
+import * as crypto from 'crypto';
 class Block {
     public index: number;
     public timestamp: string;
