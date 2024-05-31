@@ -43,7 +43,8 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
    * Comando: node dist/index.js
 9. **Scripts NPM**
    * Adicione os seguintes scripts no seu 'package.json':
-   {
+  ~~~
+    {
   "name": "minha-blockchain",
   "version": "1.0.0",
   "description": "",
@@ -59,6 +60,8 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
     "@types/node": "^17.0.0"
   }
 }
+~~~
+
 10. **Compile e Execute**
     * Comando: npm run build
     * Comando: npm start
