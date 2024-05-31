@@ -6,15 +6,15 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
 
 ### Inicializar o Projeto
 
-1. Crie um diretório para o projeto e navegue até ele:
+1. **Crie um diretório para o projeto e navegue até ele**:
    mkdir "Nome do seu Projeto"
    cd "Nome do seu Projeto"
-2. Inicialize um novo projeto NPM:
+2. **Inicialize um novo projeto NPM**:
    Comando: npm init -y
-3. Configure o TypeScript:
+3. **Configure o TypeScript**:
    Aqui deve-se instalar o Typescript e os tipos para Node.js:
    Comando: npm install typescript @types/node --save-dev
-4. Agora crie um arquivo 'tsconfig.json' com a seguinte config:
+4. **Agora crie um arquivo 'tsconfig.json' com a seguinte config**:
    {
   "compilerOptions": {
     "target": "ES6",
@@ -27,17 +27,17 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
   },
   "include": ["src/**/*"]
 }
-5. Agora estruture o projeto
+5. **Agora estruture o projeto**
    Crie a estrutura dos diretórios
    Comando: mkdir src
    Comando: src/index.ts // Ou crie la dentro da pasta mesmo.
-6. Código no meu repo. src/index.ts
-7. Compilar e Executar o código
+6. **Código no meu repo. src/index.ts**
+7. **Compilar e Executar o código**
    Compile o Typescript para JavaScript:
    Comando: npx tsc
    Execute o arquico compilado:
    Comando: node dist/index.js
-8. Scripts NPM
+8. **Scripts NPM**
    Adicione os seguintes scripts no seu 'package.json':
    {
   "name": "minha-blockchain",
@@ -55,7 +55,7 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
     "@types/node": "^17.0.0"
   }
 }
-9. Compile e Execute
+9. **Compile e Execute**
     Comando: npm run build
     Comando: npm start
 
