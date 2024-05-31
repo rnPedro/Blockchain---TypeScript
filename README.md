@@ -9,6 +9,8 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
 1. **Crie um diretório para o projeto e navegue até ele**:
    ```sh
    mkdir "Nome do seu Projeto"
+   ```
+   ```sh
    cd "Nome do seu Projeto"
    ```
 3. **Inicialize um novo projeto NPM**:
