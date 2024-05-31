@@ -73,7 +73,7 @@ Este projeto é um exemplo básico de como criar uma blockchain usando TypeScrip
 10. **Compile e Execute**
     ```sh
     npm run build
-    Comando: npm start
+    npm start
     ```
 
 # Este arquivo README.md resume os passos essenciais para configurar e executar o projeto de blockchain em TypeScript usando NPM.
